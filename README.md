@@ -18,10 +18,6 @@ git clone https://github.com/Ragavik31/Bankers-s-Algorithm.git
 cd bankers-algorithm
 
 
-Compile the code:
-gcc bankers.c -o bankers
-
-
 Run the executable:
 ./bankers
 
