@@ -11,13 +11,6 @@ Determines whether the system is in a safe state.
 Prevents deadlock by denying unsafe resource requests.
 Includes example test cases for easy understanding.
 
-Prerequisites
-To run this project, you need:
-
-A C compiler (e.g., GCC) installed on your system.
-Basic knowledge of process scheduling and deadlock avoidance.
-(Optional) Make utility for building the project.
-
 Installation
 
 Clone the repository:
