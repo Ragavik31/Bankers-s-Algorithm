@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Banker's Algorithm Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Banker's Algorithm</h1>
+
+  <label>Number of Processes: <input type="number" id="processes" value="3" min="1"></label>
+  <label>Number of Resources: <input type="number" id="resources" value="3" min="1"></label>
+  <button onclick="generateTables()">Generate Matrices</button>
+
+  <div id="matrices"></div>
+
+  <button onclick="runBankers()">Run Banker's Algorithm</button>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
